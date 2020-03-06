@@ -1,0 +1,9 @@
+CREATE TABLE dbo.TableName
+(
+   ColomnName1Id int IDENTITY(1,1) PRIMARY KEY NOT NULL,
+   ColumnNameId2 int NOT NULL,
+   URI nvarchar (255) NOT NULL Default('home@home.com'),
+   CreateDate datetime NOT NULL DEFAULT((getdate())),
+   EditDate datetime NOT NULL DEFAULT((getdate())),
+
+);
