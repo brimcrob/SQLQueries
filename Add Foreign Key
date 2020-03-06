@@ -1,0 +1,2 @@
+AlTER TABLE [dbo].[FromTable] WITH CHECK ADD CONSTRAINT [FK_FromTable_ToTable] FOREIGN KEY([ToColumnId])
+REFERENCES [dbo].[ToTable] ([FromColumnId])
